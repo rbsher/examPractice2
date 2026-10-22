@@ -1,0 +1,35 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author rbake
+ */
+
+import java.util.Random;
+
+public class Exampractice {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        System.out.println("Hello");
+        
+        Random random = new Random();
+        
+        int x = random.nextInt(17);
+        
+        if (x > 8) {
+            System.out.println("This number is above 8!");
+        }
+        else {
+            System.out.println("This number is not above 8...");
+        }
+        
+        
+    }
+    
+}

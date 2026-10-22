@@ -17,7 +17,7 @@ public class Exampractice {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello");
+        System.out.println("Hello Rylan!");
         
         Random random = new Random();
         Scanner read = new Scanner(System.in);

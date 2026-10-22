@@ -9,6 +9,7 @@
  */
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class Exampractice {
 
@@ -19,11 +20,15 @@ public class Exampractice {
         System.out.println("Hello");
         
         Random random = new Random();
+        Scanner read = new Scanner(System.in);
+        
+        String y = read.nextLine();
         
         int x = random.nextInt(17);
         
         if (x > 8) {
             System.out.println("This number is above 8!");
+            System.out.println(y);
         }
         else {
             System.out.println("This number is not above 8...");

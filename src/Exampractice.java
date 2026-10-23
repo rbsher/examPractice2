@@ -34,6 +34,12 @@ public class Exampractice {
             System.out.println("This number is not above 8...");
         }
         
+        while (x > 0) {
+            System.out.println("Wow, " + x + " is the number now");
+            x -=1 ;
+        }
+        System.out.println("Oops, x is now 0...");
+        
         
     }
     
